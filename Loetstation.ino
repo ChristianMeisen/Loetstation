@@ -306,7 +306,7 @@ void updateRevision(void) {
 
 void setDisplayMode(boolean bgr) {
   tft.colorSpace(bgr);
-  tft.setRotation(3);
+  tft.setRotation(1);
 }
 
 void optionMenu(void) {
