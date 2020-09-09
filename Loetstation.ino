@@ -853,8 +853,8 @@ void compute(void) {
     } else {
       target_t = set_t;
     }
-    if (cur_t-last_measured <= -30 && last_measured != 999) {
-      setError(EXCESSIVE_FALL); //decrease of more than 30 degree is uncommon, short of ring and gnd is possible.
+    if (cur_t-last_measured <= -60 && last_measured != 999) {
+      setError(EXCESSIVE_FALL); //decrease of more than 60 degree is uncommon, short of ring and gnd is possible.
     }
     if (cur_t < adc_offset + TEMP_RISE) {
       if (threshold_counter == 0) {
