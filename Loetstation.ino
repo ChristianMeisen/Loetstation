@@ -11,7 +11,6 @@
  * See also readme in mechanical folder for reference.
  */
 //#define USE_TFT_RESET
-//
 /*
  * If red is blue and blue is red change this
  * If not sure, leave commented, you will be shown a setup screen
